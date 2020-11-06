@@ -11,8 +11,6 @@ import androidx.annotation.Nullable;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    NotificationUtils notificationUtils;
-
     //Android 0
     private Button btn_send_important_notification;
     private Button btn_del_important_notification;
@@ -41,7 +39,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_del_unimportant_notification.setOnClickListener(this);
         btn_important_notification_setting.setOnClickListener(this);
         btn_unimportant_notification_setting.setOnClickListener(this);
-        notificationUtils = new NotificationUtils(MainActivity.this);
     }
 
     @SuppressLint("NonConstantResourceId")
@@ -49,22 +46,22 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_send_important_notification:
-                notificationUtils.showImportantNotification();
+                NotificationUtils.getInstance(MainActivity.this).showImportantNotification();
                 break;
             case R.id.btn_del_important_notification:
-                notificationUtils.delImportantNotification();
+                NotificationUtils.getInstance(MainActivity.this).delImportantNotification();
                 break;
             case R.id.btn_send_unimprotant_notification:
-                notificationUtils.showUnimportantNotification();
+                NotificationUtils.getInstance(MainActivity.this).showUnimportantNotification();
                 break;
             case R.id.btn_del_unimportant_notification:
-                notificationUtils.delUnimportantNotification();
+                NotificationUtils.getInstance(MainActivity.this).delUnimportantNotification();
                 break;
             case R.id.btn_important_notification_setting:
-                notificationUtils.toImportantNotificationSetting();
+                NotificationUtils.getInstance(MainActivity.this).toImportantNotificationSetting();
                 break;
                 case R.id.btn_unimportant_notification_setting:
-                notificationUtils.toUnimportantNotificationSetting();
+                    NotificationUtils.getInstance(MainActivity.this).toUnimportantNotificationSetting();
                 break;
             default:
                 break;

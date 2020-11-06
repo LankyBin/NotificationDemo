@@ -24,9 +24,18 @@ public class NotificationUtils {
     private NotificationManager mNotificationManager;
     private Context mContext;
 
+    private static NotificationUtils mNotificationUtils = null;
+
     public NotificationUtils(Context context) {
         mContext = context;
         createGroup();
+    }
+
+    public static NotificationUtils getInstance(Context context){
+        if (mNotificationUtils == null) {
+            mNotificationUtils = new NotificationUtils(context);
+        }
+        return mNotificationUtils;
     }
 
     private String ImportantGroupId = "ImportantGroupId";
