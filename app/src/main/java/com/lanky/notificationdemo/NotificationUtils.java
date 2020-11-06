@@ -31,7 +31,7 @@ public class NotificationUtils {
         createGroup();
     }
 
-    public static NotificationUtils getInstance(Context context){
+    public static NotificationUtils getInstance(Context context) {
         if (mNotificationUtils == null) {
             mNotificationUtils = new NotificationUtils(context);
         }
