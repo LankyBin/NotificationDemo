@@ -37,12 +37,12 @@ public class NotificationUtils {
 
     private String ImportantChannelId = "ImportantChannelId";
     private String ImportantChannelName = "重要通知";
-    private String ImportantChannelDesc = "请注意，这是一个重要的通知,不建议关闭";
+    private String ImportantChannelDesc = "请注意，这是重要的通知组,不建议关闭";
     private int ImportantChannelImportance = NotificationManager.IMPORTANCE_MAX;
 
     private String UnimportantChannelId = "UnimportantChannelId";
     private String UnimportantChannelName = "不重要的通知";
-    private String UnimportantChannelDesc = "这是一个不重要的通知，可以忽略";
+    private String UnimportantChannelDesc = "这是不重要的通知组，可以忽略";
     private int UnimportantChannelImportance = NotificationManager.IMPORTANCE_LOW;
 
     public void showImportantNotification() {
