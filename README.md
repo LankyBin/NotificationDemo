@@ -29,3 +29,9 @@ Use demo:
                 break;
         }
 ```
+# Results show
+<div align=center><img src="https://github.com/LankyBin/NotificationDemo/blob/main/raw/20201106164605.png" width="300" height="550" ><div>
+<div align=center><img src="https://github.com/LankyBin/NotificationDemo/blob/main/raw/20201106164804.png" width="300" height="550" ><div>
+<div align=center><img src="https://github.com/LankyBin/NotificationDemo/blob/main/raw/20201106164922.png" width="300" height="550" ><div>
+<div align=center><img src="https://github.com/LankyBin/NotificationDemo/blob/main/raw/20201106164931.png" width="300" height="550" ><div>
+<div align=center><img src="https://github.com/LankyBin/NotificationDemo/blob/main/raw/20201106164940.png" width="300" height="550" ><div>
