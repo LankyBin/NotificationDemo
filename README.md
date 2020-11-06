@@ -2,6 +2,8 @@
 NotificationDemo on Android8.0
 
 Androidstudio4.x is recommended.
+
+[APK DEMO](https://github.com/LankyBin/NotificationDemo/raw/main/APK_Demo/NotificationDemo_Androido.apk)
 # Contains a utility class named NotificationUtils
 Use demo:
 
