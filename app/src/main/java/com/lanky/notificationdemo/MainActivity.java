@@ -60,8 +60,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.btn_important_notification_setting:
                 NotificationUtils.getInstance(MainActivity.this).toImportantNotificationSetting();
                 break;
-                case R.id.btn_unimportant_notification_setting:
-                    NotificationUtils.getInstance(MainActivity.this).toUnimportantNotificationSetting();
+            case R.id.btn_unimportant_notification_setting:
+                NotificationUtils.getInstance(MainActivity.this).toUnimportantNotificationSetting();
                 break;
             default:
                 break;
