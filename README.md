@@ -6,7 +6,7 @@ Androidstudio4.x is recommended.
 Use demo:
 
 ```
-switch (v.getId()) {
+        switch (v.getId()) {
             case R.id.btn_send_important_notification:
                 NotificationUtils.getInstance(MainActivity.this).showImportantNotification();
                 break;
@@ -22,8 +22,8 @@ switch (v.getId()) {
             case R.id.btn_important_notification_setting:
                 NotificationUtils.getInstance(MainActivity.this).toImportantNotificationSetting();
                 break;
-                case R.id.btn_unimportant_notification_setting:
-                    NotificationUtils.getInstance(MainActivity.this).toUnimportantNotificationSetting();
+            case R.id.btn_unimportant_notification_setting:
+                NotificationUtils.getInstance(MainActivity.this).toUnimportantNotificationSetting();
                 break;
             default:
                 break;
